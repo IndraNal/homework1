@@ -1,60 +1,121 @@
 
   header {
    
-    background-color: #777;
-  
-    width: 980px;
-    margin: 0px;
+    background-color: white;
     
+
+    width: 100%;
+    height:60px;
+
   }
 
  body{
 
-    width:980px;
-    margin: 0px;
+   
+    background-color : #dddddd;
+    
  }
 
- .topnav {
-    
-    overflow: hidden;
+
+
+.title-area li
+{
+   
+    float: left; 
+    background-color: rgb(48, 228, 228);
+    color: white;
+    padding: 20px;
+    margin-left: 40px;
+    font-size: 22px;
+
+
+
+}
+
+
+
+/* Change the color of links on hover */
+nav a:hover {
+    background-color: #ddd;
+    color: black;
     
 }
 
- /*Style the links inside the navigation bar*/
-.topnav a {
-    float: left;
-    color: #f2f2f2f3;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-} 
+nav a{
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    text-decoration: none;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+nav a.active {
     background-color: #4CAF50;
     color: white;
 }
 
-.topnav-right {
-    float: right;
+nav ul li {
+    
+    display: inline-block;
+    padding-right: 20px;
   }
 
-  .left {float:left;width:250px;}
-.right {float:right;margin:0 0 0 5px;width:215px;}
-  
+.nav-items { 
+   
+    float: right; 
+  }
+
+    
+article{
+
+    background-color: white;
+    margin:40px 80px;
+}
+
+article h1{
+
+    padding:20px;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: Grey;
+    color:rgb(48, 228, 228);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+article img{
+    float: left;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+img{
+
+    float:left;
+}
+
+form{
+
+    margin:10px;
+    
+}
+
+
+#button{
+    background-color: aqua;
+}
+
   footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width:980px;
-    background-color: #777;
-    color: white;
-    text-align: center;
+      overflow: auto;
+clear: both;
+position: fixed;
+bottom: 0;
+width: 100%;
+height:50px;
+background-color: #777;
+color: black;
+text-align: center;
+border-style: solid;
+    border-top-width: 5px;
+    border-top-color: rgb(48, 228, 228)
 }
